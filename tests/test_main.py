@@ -9,14 +9,10 @@ import subprocess
 import tempfile
 from unittest.mock import patch
 
-# Add parent directory to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'skeleton'))
-
 
 def test_command_line_args():
     """Test command-line argument validation."""
-    skeleton_dir = os.path.join(os.path.dirname(__file__), '..', 'skeleton')
-    main_py = os.path.join(skeleton_dir, 'main.py')
+    main_py = os.path.join(os.path.dirname(__file__), '..', 'skeleton', 'main.py')
     
     # Test no arguments (should show usage)
     result = subprocess.run([sys.executable, main_py], 
@@ -63,8 +59,7 @@ def test_full_program():
     Perfect for testing character counting functionality.
     """
     
-    skeleton_dir = os.path.join(os.path.dirname(__file__), '..', 'skeleton')
-    main_py = os.path.join(skeleton_dir, 'main.py')
+    main_py = os.path.join(os.path.dirname(__file__), '..', 'skeleton', 'main.py')
     
     with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as f:
         f.write(sample_book)

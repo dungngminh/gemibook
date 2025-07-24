@@ -4,7 +4,7 @@ Main entry point for the program
 """
 
 import sys
-from stats import count_words, count_characters, get_character_report
+from stats import count_words, count_characters, get_sorted_character_report
 
 
 def get_book_text(path):
@@ -43,7 +43,7 @@ def main():
     print(f"Found {word_count} total words")
     print("--------- Character Count ---------")
     for item in char_report:
-        print(f"{item['char']}: {item['num']}")
+        print(f"'{item['char']}': {item['num']}")
     print("============= END ===============")
 
 

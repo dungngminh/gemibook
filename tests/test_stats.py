@@ -7,10 +7,7 @@ Or: python3 test_stats.py
 import sys
 import os
 
-# Add parent directory to path so we can import from skeleton/
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'skeleton'))
-
-from stats import count_words, count_characters, get_character_report
+from stats import count_words, count_characters, get_sorted_character_report
 
 
 def test_count_words():
@@ -66,11 +63,11 @@ def test_count_characters():
     print("✓ All character count tests passed!")
 
 
-def test_get_character_report():
+def test_get_sorted_character_report():
     """Test character report generation."""
     # Test basic functionality
     char_count = {'a': 5, 'b': 3, 'c': 8, '!': 2, ' ': 10}
-    result = get_character_report(char_count)
+    result = get_sorted_character_report(char_count)
     
     # Should only include alphabetic characters
     expected_chars = {'a', 'b', 'c'}
@@ -83,11 +80,11 @@ def test_get_character_report():
     
     # Test with no alphabetic characters
     char_count_no_alpha = {'!': 5, ' ': 3, '1': 2}
-    result = get_character_report(char_count_no_alpha)
+    result = get_sorted_character_report(char_count_no_alpha)
     assert result == [], f"Expected empty list for non-alphabetic chars, got {result}"
     
     # Test empty input
-    result = get_character_report({})
+    result = get_sorted_character_report({})
     assert result == [], f"Expected empty list for empty input, got {result}"
     
     print("✓ All character report tests passed!")
@@ -112,7 +109,7 @@ def run_integration_test():
     assert len(char_count) > 0, "Should have some characters"
     
     # Test character report
-    char_report = get_character_report(char_count)
+    char_report = get_sorted_character_report(char_count)
     print(f"Top 5 characters: {char_report[:5]}")
     
     # Verify report is sorted correctly
@@ -132,7 +129,7 @@ def main():
     try:
         test_count_words()
         test_count_characters() 
-        test_get_character_report()
+        test_get_sorted_character_report()
         run_integration_test()
         
         print("=" * 40)

@@ -1,0 +1,384 @@
+[
+    {
+        "book_path": "/Users/dungngminh/Library/CloudStorage/GoogleDrive-dungngminh1311.dut@gmail.com/Other computers/MacBook Ca\u0301 nha\u0302n/Personal/Books/mvwtf.pdf",
+        "word_count": 2424,
+        "character_count": [
+            {
+                "char": "t",
+                "num": 1585
+            },
+            {
+                "char": "e",
+                "num": 1504
+            },
+            {
+                "char": "a",
+                "num": 1392
+            },
+            {
+                "char": "s",
+                "num": 1279
+            },
+            {
+                "char": "i",
+                "num": 1032
+            },
+            {
+                "char": "r",
+                "num": 863
+            },
+            {
+                "char": "o",
+                "num": 823
+            },
+            {
+                "char": "n",
+                "num": 717
+            },
+            {
+                "char": "d",
+                "num": 708
+            },
+            {
+                "char": "m",
+                "num": 600
+            },
+            {
+                "char": "l",
+                "num": 532
+            },
+            {
+                "char": "c",
+                "num": 525
+            },
+            {
+                "char": "u",
+                "num": 413
+            },
+            {
+                "char": "v",
+                "num": 366
+            },
+            {
+                "char": "p",
+                "num": 300
+            },
+            {
+                "char": "h",
+                "num": 262
+            },
+            {
+                "char": "k",
+                "num": 242
+            },
+            {
+                "char": "w",
+                "num": 212
+            },
+            {
+                "char": "f",
+                "num": 159
+            },
+            {
+                "char": "y",
+                "num": 141
+            },
+            {
+                "char": "g",
+                "num": 140
+            },
+            {
+                "char": "b",
+                "num": 114
+            },
+            {
+                "char": "\ufb01",
+                "num": 15
+            },
+            {
+                "char": "x",
+                "num": 10
+            },
+            {
+                "char": "j",
+                "num": 8
+            },
+            {
+                "char": "z",
+                "num": 5
+            },
+            {
+                "char": "q",
+                "num": 5
+            },
+            {
+                "char": "\ufb02",
+                "num": 2
+            }
+        ],
+        "most_common_words": [
+            [
+                "adammc331",
+                94
+            ],
+            [
+                "androidsummit",
+                92
+            ],
+            [
+                "fun",
+                56
+            ],
+            [
+                "private",
+                55
+            ],
+            [
+                "tasks",
+                44
+            ],
+            [
+                "view",
+                40
+            ],
+            [
+                "state",
+                39
+            ],
+            [
+                "class",
+                39
+            ],
+            [
+                "val",
+                38
+            ],
+            [
+                "s",
+                36
+            ]
+        ],
+        "average_word_length": 6.247619047619048
+    },
+    {
+        "book_path": "/Users/dungngminh/Library/CloudStorage/GoogleDrive-dungngminh1311.dut@gmail.com/Other computers/MacBook Ca\u0301 nha\u0302n/Personal/Books/3477495.3536330.pdf",
+        "word_count": 3724,
+        "character_count": [
+            {
+                "char": "e",
+                "num": 2384
+            },
+            {
+                "char": "t",
+                "num": 1665
+            },
+            {
+                "char": "a",
+                "num": 1484
+            },
+            {
+                "char": "i",
+                "num": 1328
+            },
+            {
+                "char": "n",
+                "num": 1258
+            },
+            {
+                "char": "o",
+                "num": 1129
+            },
+            {
+                "char": "r",
+                "num": 1086
+            },
+            {
+                "char": "s",
+                "num": 1072
+            },
+            {
+                "char": "l",
+                "num": 774
+            },
+            {
+                "char": "h",
+                "num": 750
+            },
+            {
+                "char": "c",
+                "num": 734
+            },
+            {
+                "char": "m",
+                "num": 538
+            },
+            {
+                "char": "d",
+                "num": 490
+            },
+            {
+                "char": "u",
+                "num": 443
+            },
+            {
+                "char": "g",
+                "num": 436
+            },
+            {
+                "char": "f",
+                "num": 429
+            },
+            {
+                "char": "y",
+                "num": 355
+            },
+            {
+                "char": "p",
+                "num": 309
+            },
+            {
+                "char": "b",
+                "num": 234
+            },
+            {
+                "char": "w",
+                "num": 226
+            },
+            {
+                "char": "v",
+                "num": 223
+            },
+            {
+                "char": "q",
+                "num": 150
+            },
+            {
+                "char": "x",
+                "num": 105
+            },
+            {
+                "char": "k",
+                "num": 74
+            },
+            {
+                "char": "\ud835\udc44",
+                "num": 33
+            },
+            {
+                "char": "j",
+                "num": 32
+            },
+            {
+                "char": "\ud835\udc52",
+                "num": 30
+            },
+            {
+                "char": "z",
+                "num": 26
+            },
+            {
+                "char": "\ud835\udc53",
+                "num": 10
+            },
+            {
+                "char": "\ud835\udc5f",
+                "num": 7
+            },
+            {
+                "char": "\ud835\udc46",
+                "num": 6
+            },
+            {
+                "char": "\ud835\udf01",
+                "num": 4
+            },
+            {
+                "char": "\ud835\udc50",
+                "num": 4
+            },
+            {
+                "char": "\ud835\udc5b",
+                "num": 3
+            },
+            {
+                "char": "\u03c0",
+                "num": 2
+            },
+            {
+                "char": "\ud835\udf06",
+                "num": 2
+            },
+            {
+                "char": "\ud835\udc37",
+                "num": 2
+            },
+            {
+                "char": "\ud835\udefc",
+                "num": 2
+            },
+            {
+                "char": "\ud835\udeff",
+                "num": 2
+            },
+            {
+                "char": "\u00e1",
+                "num": 1
+            },
+            {
+                "char": "\ud835\udc56",
+                "num": 1
+            },
+            {
+                "char": "\u0107",
+                "num": 1
+            },
+            {
+                "char": "\u00fc",
+                "num": 1
+            }
+        ],
+        "most_common_words": [
+            [
+                "the",
+                246
+            ],
+            [
+                "a",
+                113
+            ],
+            [
+                "of",
+                110
+            ],
+            [
+                "to",
+                98
+            ],
+            [
+                "query",
+                79
+            ],
+            [
+                "and",
+                69
+            ],
+            [
+                "in",
+                68
+            ],
+            [
+                "for",
+                50
+            ],
+            [
+                "is",
+                47
+            ],
+            [
+                "that",
+                41
+            ]
+        ],
+        "average_word_length": 4.7198756154444155
+    }
+]
